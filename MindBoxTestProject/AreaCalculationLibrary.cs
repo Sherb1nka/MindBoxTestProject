@@ -41,5 +41,10 @@ namespace MindBoxTestProject
                 throw e;
             }
         }
+
+        public static double CalculateArea(IAreaCalculatable figure)
+        {
+            return figure.CalculateArea();
+        }
     }
 }
